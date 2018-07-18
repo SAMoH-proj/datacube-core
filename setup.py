@@ -96,7 +96,7 @@ setup(
         'click>=5.0',
         'cloudpickle>=0.4',
         'dask[array]',
-        'gdal>=1.9',
+        #'gdal>=1.9',
         'jsonschema',
         'netcdf4',
         'numpy',
