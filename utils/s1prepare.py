@@ -152,6 +152,7 @@ def dataset_folder(fields):
 
 def prepare_datasets(s1a_path):
     print(s1a_path)
+    print(s1a_path.stem)
     fields = re.match(
         (
             r"(?P<platform>SENTINEL_1A)"
